@@ -1,0 +1,12 @@
+.top {
+  width: 100%;
+  height: 200px; }
+
+.thinbar {
+  display: inline-block;
+  height: 1.7em;
+  width: 100%; }
+  .thinbar .holster {
+    /*Contains the link to the left, does not contain h2 text */
+    float: left;
+    background-color: raisinmix-lightest; }

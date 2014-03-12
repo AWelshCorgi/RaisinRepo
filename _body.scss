@@ -1,0 +1,29 @@
+.primary{
+	width: 60%;
+	max-width: 600px;
+	float:left;
+	margin: 1.5em auto;
+	border: 0.063em solid #ccc;
+	background: #fff;
+	text-align: left;
+	padding: 10px;
+	margin:10px;
+}
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}

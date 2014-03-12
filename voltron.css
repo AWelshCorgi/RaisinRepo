@@ -3,4 +3,74 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  font-size: 100%; }
+
+body {
+  font-size: 1em;
+  font-family: georgia, serif;
+  color: #444;
+  background: #e6e6e6; }
+
+ul {
+  list-style: inside circle; }
+  ul li {
+    margin-top: 10px; }
+
+h1 {
+  /* Logo */
+  font-size: 4em; }
+
+h2 {
+  /* narrow bar non-link text*/
+  font-size: 1.3em; }
+
+h3 {
+  /* Pledge c2a */
+  font-size: .9em; }
+
+h4 {
+  /* footer jab */
+  font-size: 1.7em; }
+
+.top {
+  width: 100%;
+  height: 150px; }
+
+.thinbar {
+  background-color: #890079;
+  overflow: auto; }
+  .thinbar .holster {
+    /*Contains the link to the left, does not contain h2 text */
+    float: left; }
+
+.primary {
+  width: 60%;
+  max-width: 600px;
+  float: left;
+  margin: 1.5em auto;
+  border: 0.063em solid #ccc;
+  background: #fff;
+  text-align: left;
+  padding: 10px;
+  margin: 10px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse; }
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee; }
+
+th {
+  background: #333;
+  color: white;
+  font-weight: bold; }
+
+td, th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left; }
+
 /* if something isn't working, remember to save this again! */

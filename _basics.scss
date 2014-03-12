@@ -3,3 +3,39 @@
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
  }
+
+html{
+font-size: 100%;
+} 
+body{
+font-size: 1em;
+font-family: georgia, serif;
+color: #444;
+background: #e6e6e6;
+}
+ul{
+	list-style:inside circle;
+	li{
+		margin-top:10px;
+	}
+}
+
+
+h1{
+	/* Logo */
+	font-size:4em;
+}
+h2{
+	/* narrow bar non-link text*/
+	font-size:1.3em;
+}
+h3{
+	/* Pledge c2a */
+	font-size:.9em;
+
+}
+h4{
+	/* footer jab */
+	font-size:1.7em;
+}
+
