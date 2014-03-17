@@ -57,7 +57,8 @@ h4 {
   font-size: 1.7em; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #434A54; }
 
 .top {
   width: 100%;
@@ -134,5 +135,63 @@ body {
     .primary {
       width: 60%;
       max-width: 600px; } }
+
+.ctoa {
+  display: block;
+  margin: 0px 0px 0px 70px;
+  vertical-align: top;
+  padding: 10px;
+  max-width: 300px;
+  overflow: auto; }
+
+.pledge {
+  display: none;
+  height: auto;
+  margin: 0;
+  float: left; }
+
+.show {
+  display: none; }
+
+.hide:target + .show {
+  display: inline; }
+
+.hide:target {
+  display: none; }
+
+.hide:target ~ .pledge {
+  display: inline; }
+
+.hide, .show {
+  background-color: #d690be;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-top: 7px;
+  box-shadow: 1px 1px 2px #000;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  float: left; }
+
+.hide:hover, .show:hover {
+  color: #eee;
+  box-shadow: 0 0 4px #222 inset; }
+
+.pledge p {
+  height: auto;
+  margin: 0; }
+
+.urge {
+  float: left;
+  height: auto;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 25px; }
+
+input {
+  margin-top: 10px;
+  padding-bottom: 2px; }
 
 /* if something isn't working, remember to save this again! */
