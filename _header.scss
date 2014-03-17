@@ -1,23 +1,71 @@
 .top{
 	width:100%;
-	height:150px;
-	.logo{
-
+	height:250px;
+	padding:10px;
+	overflow:auto;
+	@media screen and (min-width: 650px){
+			
+		height:150px;
 	}
 
+	.name{
+		margin-right:auto;
+		margin-left:auto;
+		text-align:center;
+		@media screen and (min-width: 650px){
+		width:40%;
+		margin-left:10px;
+		float:left;
+
+		text-align:left;
+		}
+
+	}
+	.logo{
+		height:100px;
+		width:100px;
+		margin-left:auto;
+		margin-right:auto;
+		@media screen and (min-width: 650px){
+		margin-top:15px;
+		margin-right:10px;
+		float:right;
+
+		}
+	}
 }
+
 .thinbar{
 	
-	background-color:$raisinmix-light;
+	background-color:$raisinmix;
 	height:40px;
 	overflow:auto;
 	padding: 10px;
+	margin-bottom:20px;
 
 	.holster{
 		/*Contains the link to the left, does not contain h2 text */
 		float:left;
-		padding-right:15px;
+		padding-left:20px;
 
+	}
+	.social{
+		float:right;
+		padding-right:20px;
+		@media screen and (min-width: 650px){
+			border-left:inset;
+				}
+			.fight{
+				display:none;
+					@media screen and (min-width: 650px){
+				display:inline;
+				float:left;
+				padding-left: 10px;
+				padding-right:10px;}
+
+			}
+		
 	}
 
 }
+

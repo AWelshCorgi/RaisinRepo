@@ -33,23 +33,66 @@ h4 {
   /* footer jab */
   font-size: 1.7em; }
 
+a {
+  text-decoration: none; }
+
 .top {
   width: 100%;
-  height: 150px; }
+  height: 250px;
+  padding: 10px;
+  overflow: auto; }
+  @media screen and (min-width: 650px) {
+    .top {
+      height: 150px; } }
+  .top .name {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; }
+    @media screen and (min-width: 650px) {
+      .top .name {
+        width: 40%;
+        margin-left: 10px;
+        float: left;
+        text-align: left; } }
+  .top .logo {
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto; }
+    @media screen and (min-width: 650px) {
+      .top .logo {
+        margin-top: 15px;
+        margin-right: 10px;
+        float: right; } }
 
 .thinbar {
-  background-color: #890079;
+  background-color: #c86ba8;
   height: 40px;
   overflow: auto;
-  padding: 10px; }
+  padding: 10px;
+  margin-bottom: 20px; }
   .thinbar .holster {
     /*Contains the link to the left, does not contain h2 text */
     float: left;
-    padding-right: 15px; }
+    padding-left: 20px; }
+  .thinbar .social {
+    float: right;
+    padding-right: 20px; }
+    @media screen and (min-width: 650px) {
+      .thinbar .social {
+        border-left: inset; } }
+    .thinbar .social .fight {
+      display: none; }
+      @media screen and (min-width: 650px) {
+        .thinbar .social .fight {
+          display: inline;
+          float: left;
+          padding-left: 10px;
+          padding-right: 10px; } }
 
 .primary {
-  width: 60%;
-  max-width: 600px;
+  width: 95%;
+  max-width: none;
   float: left;
   margin: 1.5em auto;
   border: 0.063em solid #ccc;
@@ -57,24 +100,12 @@ h4 {
   text-align: left;
   padding: 10px;
   margin: 10px; }
+  @media screen and (min-width: 768px) {
+    .primary {
+      width: 60%;
+      max-width: 600px; } }
 
-table {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse; }
-
-/* Zebra striping */
-tr:nth-of-type(odd) {
-  background: #eee; }
-
-th {
-  background: #333;
-  color: white;
-  font-weight: bold; }
-
-td, th {
-  padding: 6px;
-  border: 1px solid #ccc;
-  text-align: left; }
+footer {
+  width: 100%; }
 
 /* if something isn't working, remember to save this again! */
