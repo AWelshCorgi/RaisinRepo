@@ -6,43 +6,41 @@ body{
 	background: #e6e6e6;
 }
 
-.primary{
-	width:95%;
-		max-width:none;
-	float:left;
-	margin: 1.5em auto;
-	border: 0.063em solid #ccc;
-	background: #fff;
-	text-align: left;
-	padding: 10px;
-	margin:10px;
-	@media screen and (min-width:768px){
-			width: 60%;
-	max-width: 600px;
-	}
-}
-
-
-
 .ctoa { 
-    display : block;
-    margin: 0px 0px 0px 70px;
+    display: block;
     vertical-align: top; 
-    padding:10px;
-    max-width:300px;
+    padding:10px 10px 10px 20px;
+    max-width:260px;
     overflow:auto;
+    margin-right:auto;
+    margin-left:auto;
+	@media screen and (min-width:650px){
+		float:right;
+		width:30%;
+		max-width:none;
+		margin-right:20px;
+	}
+
 }
+
 .pledge {
     display:none; 
     height:auto;
-    margin:0;
+    margin-top:15px;
     float: left;
+    @media screen and (min-width:650px){
+    		display:inline;
+    	} 
 }
 .show {
-    display: none; 
+    display: none;
+
 }
 .hide:target + .show {
     display: inline; 
+    @media screen and (min-width:650px){
+    	display:none;}
+
 }
 .hide:target {
     display: none; 
@@ -51,41 +49,43 @@ body{
     display:inline; 
 }
 
+
 .hide, .show {
-	background-color:$raisinmix-light;
-	text-align: center;
-	margin-top:5px;
-	margin-left:5px;
-	padding-top:7px;
-	box-shadow: 1px 1px 2px #000;
-	border-radius: 30px;
-	height:30px;
-	width:30px;
-	float: left;
+	float:left;
+	margin-right:10px;
+	@media screen and (min-width:650px){
+		display:none;
+	}
 
 
 }
 
 
 .hide:hover, .show:hover {
-  color: #eee;
-  box-shadow: 0 0 4px #222 inset;
+  color: #656D78;
 }
 
 .pledge p{
     height:auto;
-    margin:0;
+    margin:0px;
 }
-.urge {
-  float: left;
-  height: auto;
-  line-height: 20px;
-  padding-left: 20px;
-  padding-top:10px;
-  margin-bottom: 25px;
-}
+
 
 input{
 	margin-top:10px;
 	padding-bottom:2px;
+}
+
+.primary{
+	width:100%;
+	max-width:none;
+	float:left;
+	background: #fff;
+	text-align: left;
+	min-height:350px;
+	padding:25px 50px 50px;
+	@media screen and (min-width:650px){
+	width: 65%;
+	border-right:2px solid;
+	}
 }

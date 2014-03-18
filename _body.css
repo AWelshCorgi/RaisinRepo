@@ -5,38 +5,38 @@ body {
   color: #444;
   background: #e6e6e6; }
 
-.primary {
-  width: 95%;
-  max-width: none;
-  float: left;
-  margin: 1.5em auto;
-  border: 0.063em solid #ccc;
-  background: #fff;
-  text-align: left;
-  padding: 10px;
-  margin: 10px; }
-  @media screen and (min-width: 768px) {
-    .primary {
-      width: 60%;
-      max-width: 600px; } }
-
 .ctoa {
   display: block;
-  margin: 0px 0px 0px 70px;
   vertical-align: top;
-  overflow: auto; }
+  padding: 10px 10px 10px 20px;
+  max-width: 260px;
+  overflow: auto;
+  margin-right: auto;
+  margin-left: auto; }
+  @media screen and (min-width: 650px) {
+    .ctoa {
+      float: right;
+      width: 30%;
+      max-width: none;
+      margin-right: 20px; } }
 
 .pledge {
   display: none;
   height: auto;
-  margin: 0;
+  margin-top: 15px;
   float: left; }
+  @media screen and (min-width: 650px) {
+    .pledge {
+      display: inline; } }
 
 .show {
   display: none; }
 
 .hide:target + .show {
   display: inline; }
+  @media screen and (min-width: 650px) {
+    .hide:target + .show {
+      display: none; } }
 
 .hide:target {
   display: none; }
@@ -45,27 +45,32 @@ body {
   display: inline; }
 
 .hide, .show {
-  background-color: red;
-  text-align: center;
-  padding-top: 7px;
-  border-radius: 30px;
-  height: 30px;
-  width: 30px;
-  float: left; }
+  float: left;
+  margin-right: 10px; }
+  @media screen and (min-width: 650px) {
+    .hide, .show {
+      display: none; } }
 
 .hide:hover, .show:hover {
-  color: #eee;
-  box-shadow: 0 0 4px #222 inset; }
+  color: #656D78; }
 
 .pledge p {
   height: auto;
-  margin: 0; }
+  margin: 0px; }
 
-.urge {
+input {
+  margin-top: 10px;
+  padding-bottom: 2px; }
+
+.primary {
+  width: 100%;
+  max-width: none;
   float: left;
-  height: auto;
-  width: 90%;
-  line-height: 20px;
-  padding-left: 20px;
-  padding-top: 5px;
-  margin-bottom: 25px; }
+  background: #fff;
+  text-align: left;
+  min-height: 350px;
+  padding: 25px 50px 50px; }
+  @media screen and (min-width: 650px) {
+    .primary {
+      width: 65%;
+      border-right: 2px solid; } }
