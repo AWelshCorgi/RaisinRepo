@@ -3,6 +3,7 @@
 	height:250px;
 	padding:10px;
 	overflow:auto;
+	background-color:$backgroundshade;
 	@media screen and (min-width: 650px){
 			
 		height:150px;
@@ -40,7 +41,7 @@
 	background-color:$raisinmix;
 	height:40px;
 	overflow:auto;
-	padding: 10px;
+	>*{padding: 10px;}
 
 	.holster{
 		/*Contains the link to the left, does not contain h2 text */
@@ -50,21 +51,42 @@
 	}
 	.social{
 		float:right;
-		padding-right:20px;
-		@media screen and (min-width: 650px){
-			border-left:inset;
-				}
+		background-color:#bbb2bb;
+		border-left: 25px solid #c3bac3;
+		position:relative;
+		&:before{
+			  content:""; 
+			    display:block; 
+			    position:absolute; 
+			    left:0; 
+			    bottom:0; 
+			    width:20px; 
+			    height:100%;                          
+				background-color:#ab94ab;
+				border-right: 12px solid  #887688;
+			
+
+		}
 			.fight{
 				display:none;
 					@media screen and (min-width: 650px){
 				display:inline;
 				float:left;
-				padding-left: 10px;
+				padding-left: 30px;
 				padding-right:10px;}
 
 			}
+			.twitter-hashtag-button{
+				margin-left:20px;
+				@media screen and (min-width: 650px){
+					margin-left:0px;
+				}
+			}
+
+			
+		}
 		
 	}
 
-}
+
 
