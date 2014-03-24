@@ -11,6 +11,17 @@ html{
 } 
 
 html, body {height: 100%;}
+body{
+	color: rgb(40,40,40);
+	height:100%;
+	font-size: 1em;
+	font-family: helvetica, georgia;
+		@media screen and (min-width:650px){
+		background-color:$headerside;
+
+		}
+}
+
 
 .pagewrap {min-height: 100%;}
 
