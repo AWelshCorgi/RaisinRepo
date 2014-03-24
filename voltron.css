@@ -114,10 +114,11 @@ li {
       position: absolute;
       left: 0;
       bottom: 0;
-      width: 20px;
+      width: 25px;
       height: 100%;
       background-color: #ab94ab;
-      border-right: 12px solid  #887688; }
+      border-right: 12px solid  #887688;
+      border-left: 6px solid #e4d7e4; }
     .thinbar .social .fight {
       display: none; }
       @media screen and (min-width: 650px) {
