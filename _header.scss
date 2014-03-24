@@ -3,7 +3,7 @@
 	height:250px;
 	padding:10px;
 	overflow:auto;
-	background-color:$backgroundshade;
+	background-color:$headerside;
 	@media screen and (min-width: 650px){
 			
 		height:150px;
@@ -39,20 +39,31 @@
 .thinbar{
 	
 	background-color:$raisinmix;
-	height:40px;
 	overflow:auto;
-	>*{padding: 10px;}
+	border-bottom:2px solid;
+	border-top:2px solid;
+	>*{padding:10px;}
+	@media screen and (min-width: 650px){
+	>*{padding: 20px;}
+	}
+
 
 	.holster{
 		/*Contains the link to the left, does not contain h2 text */
 		float:left;
 		padding-left:20px;
+		h2{
+			font-weight: bold;
+			a{
+				color:$fontshadelight;
+			}
+		}
 
 	}
 	.social{
 		float:right;
-		background-color:#bbb2bb;
-		border-left: 25px solid #c3bac3;
+		background-color:$raisinmix-light;
+		border-left: 25px solid $raisinmix-light;
 		position:relative;
 		&:before{
 			  content:""; 
@@ -62,9 +73,9 @@
 			    bottom:0; 
 			    width:25px; 
 			    height:100%;                          
-				background-color:#ab94ab;
-				border-right: 12px solid  #887688;
-				border-left: 6px solid #e4d7e4;
+				background-color:#bd5a97 ;
+				border-right: 12px solid  #82245d;
+				border-left: 6px solid #deadcb;
 			}
 			
 			.fight{

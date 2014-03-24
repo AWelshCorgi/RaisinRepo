@@ -1,17 +1,17 @@
 body{
 	height:100%;
 	font-size: 1em;
-	font-family: georgia, serif;
-	color: #444;
+	font-family: helvetica, georgia;
+	color: rgb(40,40,40);
 		@media screen and (min-width:650px){
-			    background-color:$backgroundshade;
+			    background-color:$headerside;
 
 		}
 }
 
 .ctoa { 
     display: block;
-    background-color:$backgroundshade;
+    background-color:$headerside;
     vertical-align: top; 
     padding:10px 10px 10px 20px;
     max-width:260px;
@@ -104,8 +104,10 @@ input{
 	text-align: left;
 	min-height:350px;
 	padding:25px 50px 50px;
-	@media screen and (min-width:650px){
-	width: 65%;
-	border-right:2px solid;
-	}
+		@media screen and (min-width:650px){
+		width: 65%;
+		border-right:2px solid;
+		
+			
+		}
 }

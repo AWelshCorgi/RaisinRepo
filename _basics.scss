@@ -22,7 +22,12 @@ html, body {height: 100%;}
 	position: relative;
 	margin-top: -100px; /* negative value of footer height */
 	height: 100px;
-	clear:both;} 
+	clear:both;
+	border-top:2px solid;
+	h4,p{ font-weight:bold;
+			color:$fontshadelight;
+		}
+} 
 
 /*Opera Fix*/
 body:before {
@@ -63,7 +68,6 @@ h4{
 
 a{
 	text-decoration:none;
-	color: #434A54;
 }
 li{
 	margin:50px 0px;

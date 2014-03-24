@@ -1,8 +1,12 @@
-$raisinmix: rgb(172,157,172);
+$raisinmix: rgb(173,50,125);
 $raisinmix-light: lighten( $raisinmix, 10% );
 $raisinmix-lighter: lighten( $raisinmix, 20% );
 $raisinmix-lightest: lighten( $raisinmix, 30% );
 $raisinmix-dark: darken( $raisinmix, 10% );
 $raisinmix-darker: darken( $raisinmix, 20% );
 
-$backgroundshade: #fcf6fc;
+
+$headerside: rgb(239,246,223);
+
+$fontshadelight: rgb(252,252,246);
+
