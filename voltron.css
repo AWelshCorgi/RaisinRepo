@@ -19,7 +19,7 @@ body {
   font-family: helvetica, georgia; }
   @media screen and (min-width: 650px) {
     body {
-      background-color: #f2f3e2; } }
+      background-color: #fcfcf6; } }
 
 .pagewrap {
   min-height: 100%; }
@@ -82,7 +82,7 @@ li {
   height: 250px;
   padding: 10px;
   overflow: auto;
-  background-color: #f2f3e2; }
+  background-color: #fcfcf6; }
   @media screen and (min-width: 650px) {
     .top {
       height: 150px; } }
@@ -174,16 +174,23 @@ li {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
-  background-color: #f2f3e2; }
+  background-color: #fcfcf6; }
   @media screen and (min-width: 650px) {
     .ctoa {
       float: right;
-      width: 30%;
-      border: hidden;
+      width: 35%;
+      border-left: 1px solid;
       box-shadow: none;
       max-width: none;
-      margin-right: 20px;
-      padding-top: 25px; } }
+      padding-top: 25px;
+      /* &:before{
+      	content:"";
+          background: #ccc;
+          position: absolute;
+          bottom: 25%;
+          left: 0;
+          height: 50%;
+          width: 1px; */ } }
 
 .pledge {
   display: none;
@@ -241,10 +248,7 @@ input {
   float: left;
   text-align: left;
   min-height: 350px;
-  padding: 25px 50px 50px;
-  background-color: #fcfcf6; }
+  padding: 25px 50px 50px; }
   @media screen and (min-width: 650px) {
     .primary {
-      width: 65%;
-      border-right: 2px solid;
-      -webkit-box-shadow: 5px 0px 5px 1px #87877d; } }
+      width: 65%; } }
