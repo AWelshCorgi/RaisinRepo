@@ -15,11 +15,13 @@ body{
 	color: rgb(40,40,40);
 	height:100%;
 	font-size: 1em;
+	background-color:$fontshadelight;
 	font-family: helvetica, georgia;
-		@media screen and (min-width:650px){
-		background-color:$headerside;
+	@media screen and (min-width:650px){
+		background-color:$header;
 
-		}
+
+	}
 }
 
 
@@ -79,6 +81,7 @@ h4{
 
 a{
 	text-decoration:none;
+	color:$raisinmix-darker;
 }
 li{
 	margin:50px 0px;

@@ -15,10 +15,11 @@ body {
   color: #282828;
   height: 100%;
   font-size: 1em;
+  background-color: #fcfcf6;
   font-family: helvetica, georgia; }
   @media screen and (min-width: 650px) {
     body {
-      background-color: #eff6df; } }
+      background-color: #f2f3e2; } }
 
 .pagewrap {
   min-height: 100%; }
@@ -29,7 +30,7 @@ body {
 
 /* must be same height as the footer */
 .footsie {
-  background-color: #ad327d;
+  background-color: #b684a4;
   position: relative;
   margin-top: -100px;
   /* negative value of footer height */
@@ -70,7 +71,8 @@ h4 {
   font-size: 1.7em; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #854f72; }
 
 li {
   margin: 50px 0px; }
@@ -80,7 +82,7 @@ li {
   height: 250px;
   padding: 10px;
   overflow: auto;
-  background-color: #eff6df; }
+  background-color: #f2f3e2; }
   @media screen and (min-width: 650px) {
     .top {
       height: 150px; } }
@@ -106,7 +108,7 @@ li {
         float: right; } }
 
 .thinbar {
-  background-color: #ad327d;
+  background-color: #b684a4;
   overflow: auto;
   border-bottom: 2px solid;
   border-top: 2px solid; }
@@ -117,16 +119,19 @@ li {
       padding: 20px; } }
   .thinbar .holster {
     /*Contains the link to the left, does not contain h2 text */
-    float: left;
-    padding-left: 20px; }
+    float: left; }
+    @media screen and (min-width: 650px) {
+      .thinbar .holster {
+        padding-left: 20px; } }
     .thinbar .holster h2 {
-      font-weight: bold; }
+      font-weight: bold;
+      padding-right: 10px; }
       .thinbar .holster h2 a {
         color: #fcfcf6; }
   .thinbar .social {
     float: right;
-    background-color: #ca4897;
-    border-left: 25px solid #ca4897;
+    background-color: #c9a4bc;
+    border-left: 25px solid #c9a4bc;
     position: relative; }
     .thinbar .social:before {
       content: "";
@@ -136,9 +141,9 @@ li {
       bottom: 0;
       width: 25px;
       height: 100%;
-      background-color: #bd5a97;
-      border-right: 12px solid  #82245d;
-      border-left: 6px solid #deadcb; }
+      background-color: #a3648c;
+      border-right: 12px solid #e5d4df;
+      border-left: 6px solid #854f72; }
     .thinbar .social .fight {
       display: none; }
       @media screen and (min-width: 650px) {
@@ -155,9 +160,7 @@ li {
 
 .ctoa {
   display: block;
-  background-color: #eff6df;
-  vertical-align: top;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 35px;
   max-width: 260px;
   overflow: auto;
   border-radius: 0px 0px 3px 3px;
@@ -170,7 +173,8 @@ li {
   border-top: 0px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  background-color: #f2f3e2; }
   @media screen and (min-width: 650px) {
     .ctoa {
       float: right;
@@ -211,7 +215,8 @@ li {
 
 .hide, .show {
   float: left;
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-top: 3px; }
   @media screen and (min-width: 650px) {
     .hide, .show {
       display: none; } }
@@ -225,7 +230,7 @@ input {
   margin-bottom: 5px; }
 
 .button {
-  background-color: #e7c5da;
+  background-color: #dcc4d3;
   font-size: 1em;
   border-radius: 5px;
   padding: 5px; }
@@ -234,11 +239,12 @@ input {
   width: 100%;
   max-width: none;
   float: left;
-  background: #fff;
   text-align: left;
   min-height: 350px;
-  padding: 25px 50px 50px; }
+  padding: 25px 50px 50px;
+  background-color: #fcfcf6; }
   @media screen and (min-width: 650px) {
     .primary {
       width: 65%;
-      border-right: 2px solid; } }
+      border-right: 2px solid;
+      -webkit-box-shadow: 5px 0px 5px 1px #87877d; } }
