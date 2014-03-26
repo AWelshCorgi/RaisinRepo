@@ -119,25 +119,30 @@ li {
     overflow: auto;
     width: 100%;
     height: 30%;
-    padding: 10px 10px 5px 10px;
     margin-bottom: 10px;
-    background-color: rgba(252, 252, 246, 0.6); }
+    background-color: rgba(252, 252, 246, 0.8); }
     @media screen and (min-width: 650px) {
       .thinbar .innerbar {
         padding-left: 25px; } }
     .thinbar .innerbar .holster {
-      /*Contains the link to the left, does not contain h2 text */
-      float: left; }
+      float: left;
+      margin-left: 15px;
+      padding-top: 10px; }
       .thinbar .innerbar .holster h2 {
         font-weight: bold;
         padding-right: 10px; }
     .thinbar .innerbar .social {
-      float: right; }
-      .thinbar .innerbar .social .twitter-hashtag-button {
-        float: right; }
-        @media screen and (min-width: 650px) {
-          .thinbar .innerbar .social .twitter-hashtag-button {
-            margin-left: 0px; } }
+      float: right;
+      display: block;
+      height: 40px;
+      width: 50px;
+      padding-top: 5px;
+      margin-right: 15px; }
+      .thinbar .innerbar .social a {
+        padding: 10px 5px; }
+      .thinbar .innerbar .social .mediaicon {
+        width: 65%;
+        height: 80%; }
 
 .ctoa {
   display: block;
