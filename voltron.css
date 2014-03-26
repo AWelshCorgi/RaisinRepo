@@ -72,7 +72,7 @@ h4 {
 
 a {
   text-decoration: none;
-  color: #854f72; }
+  color: #282828; }
 
 li {
   margin: 50px 0px; }
@@ -126,37 +126,21 @@ li {
     .thinbar .holster h2 {
       font-weight: bold;
       padding-right: 10px; }
-      .thinbar .holster h2 a {
-        color: #fcfcf6; }
   .thinbar .social {
-    float: right;
-    background-color: #c9a4bc;
-    border-left: 25px solid #c9a4bc;
-    position: relative; }
-    .thinbar .social:before {
-      content: "";
-      display: block;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 25px;
-      height: 100%;
-      background-color: #a3648c;
-      border-right: 12px solid #e5d4df;
-      border-left: 6px solid #854f72; }
-    .thinbar .social .fight {
-      display: none; }
-      @media screen and (min-width: 650px) {
-        .thinbar .social .fight {
-          display: inline;
-          float: left;
-          padding-left: 30px;
-          padding-right: 10px; } }
-    .thinbar .social .twitter-hashtag-button {
-      margin-left: 20px; }
-      @media screen and (min-width: 650px) {
-        .thinbar .social .twitter-hashtag-button {
-          margin-left: 0px; } }
+    float: right; }
+  .thinbar .fight {
+    display: none; }
+    @media screen and (min-width: 650px) {
+      .thinbar .fight {
+        display: inline;
+        float: left;
+        padding-left: 30px;
+        padding-right: 10px; } }
+  .thinbar .twitter-hashtag-button {
+    margin-left: 20px; }
+    @media screen and (min-width: 650px) {
+      .thinbar .twitter-hashtag-button {
+        margin-left: 0px; } }
 
 .ctoa {
   display: block;

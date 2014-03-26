@@ -58,28 +58,13 @@
 		h2{
 			font-weight: bold;
 			padding-right:10px;
-			a{
-				color:$fontshadelight;
-			}
+			
 		}
 
 	}
 	.social{
 		float:right;
-		background-color:$raisinmix-light;
-		border-left: 25px solid $raisinmix-light;
-		position:relative;
-		&:before{
-			  content:""; 
-			    display:block; 
-			    position:absolute; 
-			    left:0; 
-			    bottom:0; 
-			    width:25px; 
-			    height:100%;                          
-				background-color:$raisinmix-dark;
-				border-right: 12px solid  $raisinmix-lightest;
-				border-left: 6px solid $raisinmix-darker;
+	
 			}
 			
 			.fight{
@@ -101,7 +86,5 @@
 			
 		}
 		
-	}
-
 
 
