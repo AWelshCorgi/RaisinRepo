@@ -30,7 +30,7 @@ body {
 
 /* must be same height as the footer */
 .footsie {
-  background-color: #b684a4;
+  background-color: #5f3a62;
   position: relative;
   margin-top: -100px;
   /* negative value of footer height */
@@ -57,6 +57,8 @@ ul {
 h1 {
   /* Logo */
   font-size: 4em; }
+  h1:nth-child(2) {
+    color: #854379; }
 
 h2 {
   /* narrow bar non-link text*/
@@ -110,24 +112,29 @@ li {
 .thinbar {
   border-top: 2px solid;
   border-bottom: 2px solid;
-  webkit-gradient: linear, 0% 50%, 100% 50%, color-stop(0%, #65016c), color-stop(5%, #65016c), color-stop(5%, #bfb130), color-stop(9%, #bfb130), color-stop(9%, #95f23d), color-stop(11%, #95f23d), color-stop(11%, #aef26d), color-stop(15%, #aef26d), color-stop(15%, #9c02a7), color-stop(18%, #9c02a7), color-stop(18%, #ffe500), color-stop(23%, #ffe500), color-stop(23%, #70e500), color-stop(26%, #70e500), color-stop(26%, #6aac2b), color-stop(31%, #6aac2b), color-stop(31%, #65016c), color-stop(33%, #65016c), color-stop(33%, #aef26d), color-stop(37%, #aef26d), color-stop(37%, #95f23d), color-stop(39%, #95f23d), color-stop(39%, #6d0174), color-stop(44%, #6d0174), color-stop(44%, #ccbc33), color-stop(48%, #ccbc33), color-stop(48%, #65016c), color-stop(51%, #65016c), color-stop(51%, #8c2593), color-stop(54%, #8c2593), color-stop(54%, #77c130), color-stop(59%, #77c130), color-stop(59%, #6d0174), color-stop(63%, #6d0174), color-stop(63%, #65016c), color-stop(69%, #65016c), color-stop(69%, #ffe500), color-stop(73%, #ffe500), color-stop(73%, #6d0174), color-stop(77%, #6d0174), color-stop(77%, #65016c), color-stop(79%, #65016c), color-stop(79%, #bfb130), color-stop(84%, #bfb130), color-stop(84%, #77c130), color-stop(86%, #77c130), color-stop(86%, #65016c), color-stop(90%, #65016c), color-stop(90%, #6aac2b), color-stop(94%, #6aac2b), color-stop(94%, #77c130), color-stop(97%, #77c130), color-stop(97%, #aef26d), color-stop(100%, #aef26d);
-  background-image: -webkit-linear-gradient(left, #65016c 0%, #65016c 5%, #bfb130 5%, #bfb130 9%, #95f23d 9%, #95f23d 11%, #aef26d 11%, #aef26d 15%, #9c02a7 15%, #9c02a7 18%, #ffe500 18%, #ffe500 23%, #70e500 23%, #70e500 26%, #6aac2b 26%, #6aac2b 31%, #65016c 31%, #65016c 33%, #aef26d 33%, #aef26d 37%, #95f23d 37%, #95f23d 39%, #6d0174 39%, #6d0174 44%, #ccbc33 44%, #ccbc33 48%, #65016c 48%, #65016c 51%, #8c2593 51%, #8c2593 54%, #77c130 54%, #77c130 59%, #6d0174 59%, #6d0174 63%, #65016c 63%, #65016c 69%, #ffe500 69%, #ffe500 73%, #6d0174 73%, #6d0174 77%, #65016c 77%, #65016c 79%, #bfb130 79%, #bfb130 84%, #77c130 84%, #77c130 86%, #65016c 86%, #65016c 90%, #6aac2b 90%, #6aac2b 94%, #77c130 94%, #77c130 97%, #aef26d 97%, #aef26d 100%);
-  background-image: -moz-linear-gradient(left, #65016c 0%, #65016c 5%, #bfb130 5%, #bfb130 9%, #95f23d 9%, #95f23d 11%, #aef26d 11%, #aef26d 15%, #9c02a7 15%, #9c02a7 18%, #ffe500 18%, #ffe500 23%, #70e500 23%, #70e500 26%, #6aac2b 26%, #6aac2b 31%, #65016c 31%, #65016c 33%, #aef26d 33%, #aef26d 37%, #95f23d 37%, #95f23d 39%, #6d0174 39%, #6d0174 44%, #ccbc33 44%, #ccbc33 48%, #65016c 48%, #65016c 51%, #8c2593 51%, #8c2593 54%, #77c130 54%, #77c130 59%, #6d0174 59%, #6d0174 63%, #65016c 63%, #65016c 69%, #ffe500 69%, #ffe500 73%, #6d0174 73%, #6d0174 77%, #65016c 77%, #65016c 79%, #bfb130 79%, #bfb130 84%, #77c130 84%, #77c130 86%, #65016c 86%, #65016c 90%, #6aac2b 90%, #6aac2b 94%, #77c130 94%, #77c130 97%, #aef26d 97%, #aef26d 100%);
-  background-image: -o-linear-gradient(left, #65016c 0%, #65016c 5%, #bfb130 5%, #bfb130 9%, #95f23d 9%, #95f23d 11%, #aef26d 11%, #aef26d 15%, #9c02a7 15%, #9c02a7 18%, #ffe500 18%, #ffe500 23%, #70e500 23%, #70e500 26%, #6aac2b 26%, #6aac2b 31%, #65016c 31%, #65016c 33%, #aef26d 33%, #aef26d 37%, #95f23d 37%, #95f23d 39%, #6d0174 39%, #6d0174 44%, #ccbc33 44%, #ccbc33 48%, #65016c 48%, #65016c 51%, #8c2593 51%, #8c2593 54%, #77c130 54%, #77c130 59%, #6d0174 59%, #6d0174 63%, #65016c 63%, #65016c 69%, #ffe500 69%, #ffe500 73%, #6d0174 73%, #6d0174 77%, #65016c 77%, #65016c 79%, #bfb130 79%, #bfb130 84%, #77c130 84%, #77c130 86%, #65016c 86%, #65016c 90%, #6aac2b 90%, #6aac2b 94%, #77c130 94%, #77c130 97%, #aef26d 97%, #aef26d 100%);
-  background-image: linear-gradient(left, #65016c 0%, #65016c 5%, #bfb130 5%, #bfb130 9%, #95f23d 9%, #95f23d 11%, #aef26d 11%, #aef26d 15%, #9c02a7 15%, #9c02a7 18%, #ffe500 18%, #ffe500 23%, #70e500 23%, #70e500 26%, #6aac2b 26%, #6aac2b 31%, #65016c 31%, #65016c 33%, #aef26d 33%, #aef26d 37%, #95f23d 37%, #95f23d 39%, #6d0174 39%, #6d0174 44%, #ccbc33 44%, #ccbc33 48%, #65016c 48%, #65016c 51%, #8c2593 51%, #8c2593 54%, #77c130 54%, #77c130 59%, #6d0174 59%, #6d0174 63%, #65016c 63%, #65016c 69%, #ffe500 69%, #ffe500 73%, #6d0174 73%, #6d0174 77%, #65016c 77%, #65016c 79%, #bfb130 79%, #bfb130 84%, #77c130 84%, #77c130 86%, #65016c 86%, #65016c 90%, #6aac2b 90%, #6aac2b 94%, #77c130 94%, #77c130 97%, #aef26d 97%, #aef26d 100%); }
+  height: 60px;
+  webkit-gradient: linear, 0% 50%, 100% 50%, color-stop(0%, #65016c), color-stop(5%, #65016c), color-stop(0%, #b163a3), color-stop(3%, #b163a3), color-stop(3%, #854379), color-stop(5%, #854379), color-stop(5%, #63325a), color-stop(7%, #63325a), color-stop(7%, #854379), color-stop(9%, #854379), color-stop(9%, #65016c), color-stop(11%, #65016c), color-stop(11%, #964c88), color-stop(12%, #964c88), color-stop(12%, #854379), color-stop(14%, #854379), color-stop(14%, #964c88), color-stop(16%, #964c88), color-stop(16%, #ae79a3), color-stop(17%, #ae79a3), color-stop(17%, #63325a), color-stop(20%, #63325a), color-stop(20%, #b163a3), color-stop(22%, #b163a3), color-stop(22%, #65016c), color-stop(24%, #65016c), color-stop(24%, #854379), color-stop(25%, #854379), color-stop(25%, #964c88), color-stop(28%, #964c88), color-stop(28%, #63325a), color-stop(30%, #63325a), color-stop(30%, #9f62a4), color-stop(33%, #9f62a4), color-stop(33%, #964c88), color-stop(35%, #964c88), color-stop(35%, #63325a), color-stop(37%, #63325a), color-stop(37%, #b163a3), color-stop(39%, #b163a3), color-stop(39%, #63325a), color-stop(43%, #63325a), color-stop(43%, #854379), color-stop(46%, #854379), color-stop(46%, #b163a3), color-stop(48%, #b163a3), color-stop(48%, #65016c), color-stop(49%, #65016c), color-stop(49%, #9f62a4), color-stop(50%, #9f62a4), color-stop(50%, #964c88), color-stop(53%, #964c88), color-stop(53%, #a75597), color-stop(55%, #a75597), color-stop(55%, #ae79a3), color-stop(56%, #ae79a3), color-stop(56%, #63325a), color-stop(58%, #63325a), color-stop(58%, #ae79a3), color-stop(60%, #ae79a3), color-stop(60%, #b163a3), color-stop(63%, #b163a3), color-stop(63%, #964c88), color-stop(65%, #964c88), color-stop(65%, #65016c), color-stop(68%, #65016c), color-stop(68%, #b163a3), color-stop(70%, #b163a3), color-stop(70%, #ae79a3), color-stop(73%, #ae79a3), color-stop(73%, #63325a), color-stop(75%, #63325a), color-stop(75%, #ae79a3), color-stop(78%, #ae79a3), color-stop(78%, #854379), color-stop(80%, #854379), color-stop(80%, #854379), color-stop(83%, #854379), color-stop(83%, #63325a), color-stop(85%, #63325a), color-stop(85%, #9f62a4), color-stop(88%, #9f62a4), color-stop(88%, #b163a3), color-stop(90%, #b163a3), color-stop(90%, #65016c), color-stop(93%, #65016c), color-stop(93%, #5f3a62), color-stop(95%, #5f3a62), color-stop(95%, #63325a), color-stop(97%, #63325a), color-stop(97%, #854379), color-stop(100%, #854379);
+  background-image: -webkit-linear-gradient(left, #b163a3 0%, #b163a3 3%, #854379 3%, #854379 5%, #63325a 5%, #63325a 7%, #854379 7%, #854379 9%, #65016c 9%, #65016c 11%, #964c88 11%, #964c88 12%, #854379 12%, #854379 14%, #964c88 14%, #964c88 16%, #ae79a3 16%, #ae79a3 17%, #63325a 17%, #63325a 20%, #b163a3 20%, #b163a3 22%, #65016c 22%, #65016c 24%, #854379 24%, #854379 25%, #964c88 25%, #964c88 28%, #63325a 28%, #63325a 30%, #9f62a4 30%, #9f62a4 33%, #964c88 33%, #964c88 35%, #63325a 35%, #63325a 37%, #b163a3 37%, #b163a3 39%, #63325a 39%, #63325a 43%, #854379 43%, #854379 46%, #b163a3 46%, #b163a3 48%, #65016c 48%, #65016c 49%, #9f62a4 49%, #9f62a4 50%, #964c88 50%, #964c88 53%, #a75597 53%, #a75597 55%, #ae79a3 55%, #ae79a3 56%, #63325a 56%, #63325a 58%, #ae79a3 58%, #ae79a3 60%, #b163a3 60%, #b163a3 63%, #964c88 63%, #964c88 65%, #65016c 65%, #65016c 68%, #b163a3 68%, #b163a3 70%, #ae79a3 70%, #ae79a3 73%, #63325a 73%, #63325a 75%, #ae79a3 75%, #ae79a3 78%, #854379 78%, #854379 80%, #854379 80%, #854379 83%, #63325a 83%, #63325a 85%, #9f62a4 85%, #9f62a4 88%, #b163a3 88%, #b163a3 90%, #65016c 90%, #65016c 93%, #5f3a62 93%, #5f3a62 95%, #63325a 95%, #63325a 97%, #854379 97%, #854379 100%);
+  background-image: -moz-linear-gradient(left, #b163a3 0%, #b163a3 3%, #854379 3%, #854379 5%, #63325a 5%, #63325a 7%, #854379 7%, #854379 9%, #65016c 9%, #65016c 11%, #964c88 11%, #964c88 12%, #854379 12%, #854379 14%, #964c88 14%, #964c88 16%, #ae79a3 16%, #ae79a3 17%, #63325a 17%, #63325a 20%, #b163a3 20%, #b163a3 22%, #65016c 22%, #65016c 24%, #854379 24%, #854379 25%, #964c88 25%, #964c88 28%, #63325a 28%, #63325a 30%, #9f62a4 30%, #9f62a4 33%, #964c88 33%, #964c88 35%, #63325a 35%, #63325a 37%, #b163a3 37%, #b163a3 39%, #63325a 39%, #63325a 43%, #854379 43%, #854379 46%, #b163a3 46%, #b163a3 48%, #65016c 48%, #65016c 49%, #9f62a4 49%, #9f62a4 50%, #964c88 50%, #964c88 53%, #a75597 53%, #a75597 55%, #ae79a3 55%, #ae79a3 56%, #63325a 56%, #63325a 58%, #ae79a3 58%, #ae79a3 60%, #b163a3 60%, #b163a3 63%, #964c88 63%, #964c88 65%, #65016c 65%, #65016c 68%, #b163a3 68%, #b163a3 70%, #ae79a3 70%, #ae79a3 73%, #63325a 73%, #63325a 75%, #ae79a3 75%, #ae79a3 78%, #854379 78%, #854379 80%, #854379 80%, #854379 83%, #63325a 83%, #63325a 85%, #9f62a4 85%, #9f62a4 88%, #b163a3 88%, #b163a3 90%, #65016c 90%, #65016c 93%, #5f3a62 93%, #5f3a62 95%, #63325a 95%, #63325a 97%, #854379 97%, #854379 100%);
+  background-image: -o-linear-gradient(left, #b163a3 0%, #b163a3 3%, #854379 3%, #854379 5%, #63325a 5%, #63325a 7%, #854379 7%, #854379 9%, #65016c 9%, #65016c 11%, #964c88 11%, #964c88 12%, #854379 12%, #854379 14%, #964c88 14%, #964c88 16%, #ae79a3 16%, #ae79a3 17%, #63325a 17%, #63325a 20%, #b163a3 20%, #b163a3 22%, #65016c 22%, #65016c 24%, #854379 24%, #854379 25%, #964c88 25%, #964c88 28%, #63325a 28%, #63325a 30%, #9f62a4 30%, #9f62a4 33%, #964c88 33%, #964c88 35%, #63325a 35%, #63325a 37%, #b163a3 37%, #b163a3 39%, #63325a 39%, #63325a 43%, #854379 43%, #854379 46%, #b163a3 46%, #b163a3 48%, #65016c 48%, #65016c 49%, #9f62a4 49%, #9f62a4 50%, #964c88 50%, #964c88 53%, #a75597 53%, #a75597 55%, #ae79a3 55%, #ae79a3 56%, #63325a 56%, #63325a 58%, #ae79a3 58%, #ae79a3 60%, #b163a3 60%, #b163a3 63%, #964c88 63%, #964c88 65%, #65016c 65%, #65016c 68%, #b163a3 68%, #b163a3 70%, #ae79a3 70%, #ae79a3 73%, #63325a 73%, #63325a 75%, #ae79a3 75%, #ae79a3 78%, #854379 78%, #854379 80%, #854379 80%, #854379 83%, #63325a 83%, #63325a 85%, #9f62a4 85%, #9f62a4 88%, #b163a3 88%, #b163a3 90%, #65016c 90%, #65016c 93%, #5f3a62 93%, #5f3a62 95%, #63325a 95%, #63325a 97%, #854379 97%, #854379 100%);
+  background-image: linear-gradient(left, #b163a3 0%, #b163a3 3%, #854379 3%, #854379 5%, #63325a 5%, #63325a 7%, #854379 7%, #854379 9%, #65016c 9%, #65016c 11%, #964c88 11%, #964c88 12%, #854379 12%, #854379 14%, #964c88 14%, #964c88 16%, #ae79a3 16%, #ae79a3 17%, #63325a 17%, #63325a 20%, #b163a3 20%, #b163a3 22%, #65016c 22%, #65016c 24%, #854379 24%, #854379 25%, #964c88 25%, #964c88 28%, #63325a 28%, #63325a 30%, #9f62a4 30%, #9f62a4 33%, #964c88 33%, #964c88 35%, #63325a 35%, #63325a 37%, #b163a3 37%, #b163a3 39%, #63325a 39%, #63325a 43%, #854379 43%, #854379 46%, #b163a3 46%, #b163a3 48%, #65016c 48%, #65016c 49%, #9f62a4 49%, #9f62a4 50%, #964c88 50%, #964c88 53%, #a75597 53%, #a75597 55%, #ae79a3 55%, #ae79a3 56%, #63325a 56%, #63325a 58%, #ae79a3 58%, #ae79a3 60%, #b163a3 60%, #b163a3 63%, #964c88 63%, #964c88 65%, #65016c 65%, #65016c 68%, #b163a3 68%, #b163a3 70%, #ae79a3 70%, #ae79a3 73%, #63325a 73%, #63325a 75%, #ae79a3 75%, #ae79a3 78%, #854379 78%, #854379 80%, #854379 80%, #854379 83%, #63325a 83%, #63325a 85%, #9f62a4 85%, #9f62a4 88%, #b163a3 88%, #b163a3 90%, #65016c 90%, #65016c 93%, #5f3a62 93%, #5f3a62 95%, #63325a 95%, #63325a 97%, #854379 97%, #854379 100%); }
   .thinbar .innerbar {
-    overflow: auto;
     width: 100%;
-    height: 30%;
-    margin-bottom: 10px;
-    background-color: rgba(252, 252, 246, 0.8); }
+    height: 70%;
+    background-color: rgba(252, 252, 246, 0.9);
+    -webkit-box-shadow: 0px 1px 2px #878384;
+    -moz-box-shadow: 0px 1px 2px #878384;
+    box-shadow: 0px 1px 2px #878384; }
     @media screen and (min-width: 650px) {
       .thinbar .innerbar {
         padding-left: 25px; } }
     .thinbar .innerbar .holster {
       float: left;
-      margin-left: 15px;
-      padding-top: 10px; }
+      margin-left: 30px;
+      padding-top: 9px; }
+      @media screen and (min-width: 650px) {
+        .thinbar .innerbar .holster {
+          margin-left: 0px; } }
       .thinbar .innerbar .holster h2 {
         font-weight: bold;
         padding-right: 10px; }
@@ -136,13 +143,8 @@ li {
       display: block;
       height: 40px;
       width: 50px;
-      padding-top: 5px;
-      margin-right: 15px; }
-      .thinbar .innerbar .social a {
-        padding: 10px 5px; }
-      .thinbar .innerbar .social .mediaicon {
-        width: 65%;
-        height: 80%; }
+      margin-right: 15px;
+      padding-top: 3px; }
 
 .ctoa {
   display: block;
@@ -223,10 +225,48 @@ input {
   margin-bottom: 5px; }
 
 .button {
-  background-color: #dcc4d3;
-  font-size: 1em;
-  border-radius: 5px;
-  padding: 5px; }
+  -moz-box-shadow: inset 0px 1px 0px 0px #e184f3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #e184f3;
+  box-shadow: inset 0px 1px 0px 0px #e184f3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b163a3), color-stop(1, #a75498));
+  background: -moz-linear-gradient(center top, #b163a3 5%, #a75498 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B163A3', endColorstr='#a75498');
+  background-color: #c123de;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  text-indent: 0px;
+  border: 1px solid #a75498;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 30px;
+  width: 70px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #9b14b3; }
+
+.button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a75498), color-stop(1, #b163a3));
+  background: -moz-linear-gradient(center top, #a75498 5%, #b163a3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a75498', endColorstr='#B163A3');
+  background-color: #a75498; }
+
+.button:active {
+  position: relative;
+  top: 1px; }
 
 .primary {
   width: 100%;
